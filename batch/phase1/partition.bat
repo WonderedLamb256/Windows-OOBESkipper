@@ -1,4 +1,6 @@
 set /p isUsingEFI="Are you using EFI? Type in Y or y for yes > "
+rem As this is in testing, always define it to YES
+set isUsingEFI="Y"
 if not defined isUsingEFI (
       echo ERROR: The variable isUsingEFI is undefined. Stop.
       exit 1
