@@ -1,3 +1,4 @@
+@echo off
 set /p isUsingEFI="Are you using EFI? Type in Y or y for yes > "
 rem As this is in testing, always define it to YES. Remove that string and this comment for testing or when testing is done.
 set isUsingEFI="Y"
