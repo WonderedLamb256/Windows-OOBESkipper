@@ -14,4 +14,4 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYS\Setup]
 
 ; Modifies the system to launch a commandline instead of the service setup (WinDeploy)
-"CmdLine"="cmd.exe"
+"CmdLine"="deploy.bat"
