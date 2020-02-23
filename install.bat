@@ -1,7 +1,7 @@
 @echo off
 echo Welcome! The Windows OOBE Skipper is an open-source script that will reformat your computer and install Windows 10 on it.
 pause
-if exist "batch-check-file.txt" (
+if exist "D:\batch-check-file.txt" (
       goto nocopy
 ) else (
       echo OOBE Skipper is copying files to the base of the D drive...
