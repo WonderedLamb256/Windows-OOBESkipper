@@ -1,3 +1,4 @@
+@echo off
 chdir D:\sources\
 echo OOBE Skipper is using DISM to image the HDD with Windows 10...
 dism /apply-image /imagefile:install.wim /index:1 /applydir:C:\
