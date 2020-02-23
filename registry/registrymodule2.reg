@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\Setup]
+
+; End the OOBE.
+"OOBEInProgress"=dword:00000000
+"SetupType"=dword:00000000
+"SystemSetupInProgress"=dword:00000000
