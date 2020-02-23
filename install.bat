@@ -5,9 +5,9 @@ if exist "batch-check-file.txt" (
       goto nocopy
 ) else (
       echo OOBE Skipper is copying files to the base of the D drive...
-      copy * D:/
+      copy * D:\
 )
 :nocopy
 echo OOBE Skipper is beginning Phase 1A - system partitioning...
 rem Hand control over to partition.bat
-D:/phase1/partition.bat
+D:\batch\phase1\partition.bat
