@@ -12,4 +12,5 @@ if /i isUsingEFI == "Y" (
       diskpart D:\OOBESkipper\config\diskpart-legacy.txt
       rem The diskpart script diskpart-legacy.txt is a BIOS version of diskpart.txt.
 )
-echo OOBE Skipper is handing the process chain to Stage 1B - image.bat (Imaging)
+echo OOBE Skipper is starting Phase 1B - Imaging...
+D:\OOBESkipper\batch\phase1\image.bat
