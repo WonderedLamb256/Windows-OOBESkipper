@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+; OOBEless Install 1.0 by WonderedLamb256
+; Make sure you have loaded registry hives SOFT and SYS from SOFTWARE and SYSTEM first.
+
+[HKEY_LOCAL_MACHINE\SOFT\Microsoft\Windows\CurrentVersion\Policies\System]
+
+; Enable system verbosity (when using logged mode, this is important)
+"VerboseStatus"=dword:00000001
+
+; Disable cursor removal on fakeboot
+"EnableCursorSuppression"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYS\Setup]
+
+; Modifies the system to launch a commandline instead of the service setup (WinDeploy)
+"CmdLine"="cmd.exe"
