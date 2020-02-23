@@ -8,6 +8,7 @@ if exist "batch-check-file.txt" (
       copy * D:\
 )
 :nocopy
+chdir D:\
 echo OOBE Skipper is beginning Phase 1A - system partitioning...
 rem Hand control over to partition.bat
 D:\batch\phase1\partition.bat
