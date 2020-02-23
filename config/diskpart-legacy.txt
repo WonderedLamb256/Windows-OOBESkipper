@@ -1,0 +1,6 @@
+sel disk 0
+convert mbr
+create part primary
+format fs=ntfs quick
+assign letter c
+exit
